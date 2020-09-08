@@ -1,3 +1,9 @@
 <resources>
-    <string name="app_name">NotaCalc</string>
+    <string name="main_title">Nota Final</string>
+    <string name="main_title_splash">Notapp</string>
+    <string name="button_calcular">Calcular</string>
+    <string name="hint_nome">Digite o nome</string>
+    <string name="hint_nota1">Digite a primeira nota</string>
+    <string name="hint_nota2">Digite a segunda nota</string>
+    <string name="developed_by">Desenvolvido por Wender Zilo</string>
 </resources>

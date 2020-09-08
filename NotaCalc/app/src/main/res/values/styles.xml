@@ -7,4 +7,39 @@
         <item name="colorAccent">@color/colorAccent</item>
     </style>
 
+    <style name="input_wizard">
+        <item name="android:textColorHint">#BBB</item>
+        <item name="android:background">@drawable/custom_edittext</item>
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">64dp</item>
+        <item name="android:singleLine">true</item>
+    </style>
+
+    <style name="FullScreen" parent="AppTheme">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:windowFullscreen">true</item>
+    </style>
+
+    <style name="nota_final">
+        <item name="android:textSize">32sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="custom_button">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/colorTextButton</item>
+        <item name="android:background">@drawable/rounded_button</item>
+    </style>
+
+    <style name="text_resultado">
+        <item name="android:textColor">#FFF</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
 </resources>
